@@ -16,7 +16,10 @@
     "communication-interaction"
   ],
   "license": "UNLICENSED",
-  "dependencies": {},
+  "dependencies": {
+    "@webwaka/organelle-external-adapter": "workspace:*",
+    "@webwaka/organelle-message-gateway": "workspace:*"
+  },
   "devDependencies": {
     "typescript": "^5.0.0",
     "jest": "^29.0.0",
